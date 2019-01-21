@@ -66,7 +66,7 @@ var layout = {
         color: '850000'
       }
     }],
-  title: 'Weekly Wash Frequency 0-10',
+  title: '<b>Belly Button Washing Frequency</b><br>Scrubs per Week',
  autosize:true,
   xaxis: {zeroline:false, showticklabels:false,
              showgrid: false, range: [-1, 1]},
