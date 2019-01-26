@@ -13,7 +13,7 @@ dictdata = data
 d3.select('#sample-metadata').html("")
 Object.entries(dictdata).forEach(([key, value]) =>{
 
-  d3.select('#sample-metadata').append('p').text(key + ": " + value)
+  d3.select('#sample-metadata').append('b').append('p').text(key + ": " + value)
 })
 var level = data['WFREQ'];
 
